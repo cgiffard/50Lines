@@ -1,4 +1,4 @@
 50Lines
 =======
 
-Slideshow in &lt; SLOC
+Slideshow in &lt;50 SLOC
