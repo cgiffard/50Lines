@@ -18,7 +18,7 @@
 	}
 
 	window.slide = function slide(n) {
-		html.className = "slide" + (location.hash = cSlide = n);
+		html.className = "slide" + (location.hash = cSlide = n = (+n|0));
 
 		slides.forEach(function(slide,i) {
 			slide.className = ["past","present","future"][i<n?0:i===n?1:2];
