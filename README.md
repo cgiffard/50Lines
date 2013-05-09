@@ -41,7 +41,8 @@ If you want, you can also style the rest of the page. The HTML element is given
 a class of `slide<currentSlideNumber>` (eg. slide0, slide1) so you can style
 anything based on what slide you're up to!
 
-Use the arrow keys to control the presentation. Click to go full-screen.
+Use the arrow keys to control the presentation. Click to go full-screen. If you're
+feeling adventurous and want to control the slides with JS, simply run `window.slide(1234)`.
 
 **That's it. Have fun.**
 
